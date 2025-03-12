@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 </head>
 <body>
-    <div id="app"></div>  <!-- ✅ Docsify가 여기를 채워야 함 -->
+    <div id="app"></div>
 
     <script>
         window.$docsify = {
             name: "applemilk0987",
             repo: "https://github.com/applemilk0987/applemilk0987.github.io",
-            loadSidebar: true,
-            coverpage: true
+            loadSidebar: true, // sidebar 페이지
+            coverpage: false, // 커버 페이지
+            search: {
+                maxAge: 86400000, // 캐시 기간 (하루)
+                paths: 'auto', // 자동으로 문서 인덱싱
+                placeholder: '검색어 입력...',
+                noData: '검색 결과 없음',
+                depth: 2 // 검색할 문서의 깊이
+            }
         };
     </script>
 

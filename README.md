@@ -1,4 +1,6 @@
-# Welcome to My applemilk0987.github.io
+# Welcome to My Docs
 
-- [🏠 홈](README.md)
-- [강연](강연/SEF2024.md)
+📌 [🏠 홈으로 이동](#/)
+
+## 강연 자료
+- [SEF 2024 강연](#/강연/SEF2024.md)

@@ -1,4 +1,4 @@
-# Welcome to My Docs
+# Welcome to My Blog
 
 📌 [🏠 홈으로 이동](#/)
 

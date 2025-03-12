@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>applemilk0987.github.io</title>
+    <title>My Docs</title>
     <script>
         window.$docsify = {
-        name: 'My Docs',
-        repo: 'https://github.com/applemilk0987/applemilk0987.github.io',
-        loadSidebar: true,   // 사이드바 활성화
-        subMaxLevel: 2,      // 서브 제목 표시
-        coverpage: false,    // README.md를 메인으로 사용
-    };
+            name: 'My Docs',
+            repo: 'https://github.com/applemilk0987/applemilk0987.github.io',
+            loadSidebar: true,  // 사이드바 자동 로드
+            subMaxLevel: 2,     // 내부 제목 자동 탐색
+            coverpage: false,   // README.md를 기본 메인 페이지로 사용
+            el: '#app'          // docsify가 랜더링할 요소 명시
+        };
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <!-- 최신 docsify CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 </head>
